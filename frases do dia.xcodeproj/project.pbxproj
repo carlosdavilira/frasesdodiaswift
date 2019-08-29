@@ -1,0 +1,585 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5709B27623185FE700CE5CB8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5709B27523185FE700CE5CB8 /* AppDelegate.swift */; };
+		5709B27823185FE700CE5CB8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5709B27723185FE700CE5CB8 /* ViewController.swift */; };
+		5709B27B23185FE700CE5CB8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5709B27923185FE700CE5CB8 /* Main.storyboard */; };
+		5709B27D23185FE900CE5CB8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5709B27C23185FE900CE5CB8 /* Assets.xcassets */; };
+		5709B28023185FE900CE5CB8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5709B27E23185FE900CE5CB8 /* LaunchScreen.storyboard */; };
+		5709B28B23185FE900CE5CB8 /* frases_do_diaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5709B28A23185FE900CE5CB8 /* frases_do_diaTests.swift */; };
+		5709B29623185FE900CE5CB8 /* frases_do_diaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5709B29523185FE900CE5CB8 /* frases_do_diaUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5709B28723185FE900CE5CB8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5709B26A23185FE700CE5CB8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5709B27123185FE700CE5CB8;
+			remoteInfo = "frases do dia";
+		};
+		5709B29223185FE900CE5CB8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5709B26A23185FE700CE5CB8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5709B27123185FE700CE5CB8;
+			remoteInfo = "frases do dia";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5709B27223185FE700CE5CB8 /* frases do dia.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "frases do dia.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5709B27523185FE700CE5CB8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		5709B27723185FE700CE5CB8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		5709B27A23185FE700CE5CB8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5709B27C23185FE900CE5CB8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5709B27F23185FE900CE5CB8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5709B28123185FE900CE5CB8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5709B28623185FE900CE5CB8 /* frases do diaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "frases do diaTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5709B28A23185FE900CE5CB8 /* frases_do_diaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = frases_do_diaTests.swift; sourceTree = "<group>"; };
+		5709B28C23185FE900CE5CB8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5709B29123185FE900CE5CB8 /* frases do diaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "frases do diaUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5709B29523185FE900CE5CB8 /* frases_do_diaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = frases_do_diaUITests.swift; sourceTree = "<group>"; };
+		5709B29723185FE900CE5CB8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5709B26F23185FE700CE5CB8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5709B28323185FE900CE5CB8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5709B28E23185FE900CE5CB8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5709B26923185FE700CE5CB8 = {
+			isa = PBXGroup;
+			children = (
+				5709B27423185FE700CE5CB8 /* frases do dia */,
+				5709B28923185FE900CE5CB8 /* frases do diaTests */,
+				5709B29423185FE900CE5CB8 /* frases do diaUITests */,
+				5709B27323185FE700CE5CB8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5709B27323185FE700CE5CB8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5709B27223185FE700CE5CB8 /* frases do dia.app */,
+				5709B28623185FE900CE5CB8 /* frases do diaTests.xctest */,
+				5709B29123185FE900CE5CB8 /* frases do diaUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5709B27423185FE700CE5CB8 /* frases do dia */ = {
+			isa = PBXGroup;
+			children = (
+				5709B27523185FE700CE5CB8 /* AppDelegate.swift */,
+				5709B27723185FE700CE5CB8 /* ViewController.swift */,
+				5709B27923185FE700CE5CB8 /* Main.storyboard */,
+				5709B27C23185FE900CE5CB8 /* Assets.xcassets */,
+				5709B27E23185FE900CE5CB8 /* LaunchScreen.storyboard */,
+				5709B28123185FE900CE5CB8 /* Info.plist */,
+			);
+			path = "frases do dia";
+			sourceTree = "<group>";
+		};
+		5709B28923185FE900CE5CB8 /* frases do diaTests */ = {
+			isa = PBXGroup;
+			children = (
+				5709B28A23185FE900CE5CB8 /* frases_do_diaTests.swift */,
+				5709B28C23185FE900CE5CB8 /* Info.plist */,
+			);
+			path = "frases do diaTests";
+			sourceTree = "<group>";
+		};
+		5709B29423185FE900CE5CB8 /* frases do diaUITests */ = {
+			isa = PBXGroup;
+			children = (
+				5709B29523185FE900CE5CB8 /* frases_do_diaUITests.swift */,
+				5709B29723185FE900CE5CB8 /* Info.plist */,
+			);
+			path = "frases do diaUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5709B27123185FE700CE5CB8 /* frases do dia */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5709B29A23185FE900CE5CB8 /* Build configuration list for PBXNativeTarget "frases do dia" */;
+			buildPhases = (
+				5709B26E23185FE700CE5CB8 /* Sources */,
+				5709B26F23185FE700CE5CB8 /* Frameworks */,
+				5709B27023185FE700CE5CB8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "frases do dia";
+			productName = "frases do dia";
+			productReference = 5709B27223185FE700CE5CB8 /* frases do dia.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5709B28523185FE900CE5CB8 /* frases do diaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5709B29D23185FE900CE5CB8 /* Build configuration list for PBXNativeTarget "frases do diaTests" */;
+			buildPhases = (
+				5709B28223185FE900CE5CB8 /* Sources */,
+				5709B28323185FE900CE5CB8 /* Frameworks */,
+				5709B28423185FE900CE5CB8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5709B28823185FE900CE5CB8 /* PBXTargetDependency */,
+			);
+			name = "frases do diaTests";
+			productName = "frases do diaTests";
+			productReference = 5709B28623185FE900CE5CB8 /* frases do diaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		5709B29023185FE900CE5CB8 /* frases do diaUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5709B2A023185FE900CE5CB8 /* Build configuration list for PBXNativeTarget "frases do diaUITests" */;
+			buildPhases = (
+				5709B28D23185FE900CE5CB8 /* Sources */,
+				5709B28E23185FE900CE5CB8 /* Frameworks */,
+				5709B28F23185FE900CE5CB8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5709B29323185FE900CE5CB8 /* PBXTargetDependency */,
+			);
+			name = "frases do diaUITests";
+			productName = "frases do diaUITests";
+			productReference = 5709B29123185FE900CE5CB8 /* frases do diaUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5709B26A23185FE700CE5CB8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1030;
+				LastUpgradeCheck = 1030;
+				ORGANIZATIONNAME = aluno;
+				TargetAttributes = {
+					5709B27123185FE700CE5CB8 = {
+						CreatedOnToolsVersion = 10.3;
+					};
+					5709B28523185FE900CE5CB8 = {
+						CreatedOnToolsVersion = 10.3;
+						TestTargetID = 5709B27123185FE700CE5CB8;
+					};
+					5709B29023185FE900CE5CB8 = {
+						CreatedOnToolsVersion = 10.3;
+						TestTargetID = 5709B27123185FE700CE5CB8;
+					};
+				};
+			};
+			buildConfigurationList = 5709B26D23185FE700CE5CB8 /* Build configuration list for PBXProject "frases do dia" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5709B26923185FE700CE5CB8;
+			productRefGroup = 5709B27323185FE700CE5CB8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5709B27123185FE700CE5CB8 /* frases do dia */,
+				5709B28523185FE900CE5CB8 /* frases do diaTests */,
+				5709B29023185FE900CE5CB8 /* frases do diaUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5709B27023185FE700CE5CB8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5709B28023185FE900CE5CB8 /* LaunchScreen.storyboard in Resources */,
+				5709B27D23185FE900CE5CB8 /* Assets.xcassets in Resources */,
+				5709B27B23185FE700CE5CB8 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5709B28423185FE900CE5CB8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5709B28F23185FE900CE5CB8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5709B26E23185FE700CE5CB8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5709B27823185FE700CE5CB8 /* ViewController.swift in Sources */,
+				5709B27623185FE700CE5CB8 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5709B28223185FE900CE5CB8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5709B28B23185FE900CE5CB8 /* frases_do_diaTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5709B28D23185FE900CE5CB8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5709B29623185FE900CE5CB8 /* frases_do_diaUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5709B28823185FE900CE5CB8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5709B27123185FE700CE5CB8 /* frases do dia */;
+			targetProxy = 5709B28723185FE900CE5CB8 /* PBXContainerItemProxy */;
+		};
+		5709B29323185FE900CE5CB8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5709B27123185FE700CE5CB8 /* frases do dia */;
+			targetProxy = 5709B29223185FE900CE5CB8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5709B27923185FE700CE5CB8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5709B27A23185FE700CE5CB8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5709B27E23185FE900CE5CB8 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5709B27F23185FE900CE5CB8 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5709B29823185FE900CE5CB8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5709B29923185FE900CE5CB8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5709B29B23185FE900CE5CB8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "frases do dia/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.aluno.frases-do-dia";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5709B29C23185FE900CE5CB8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "frases do dia/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.aluno.frases-do-dia";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		5709B29E23185FE900CE5CB8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "frases do diaTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.aluno.frases-do-diaTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/frases do dia.app/frases do dia";
+			};
+			name = Debug;
+		};
+		5709B29F23185FE900CE5CB8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "frases do diaTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.aluno.frases-do-diaTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/frases do dia.app/frases do dia";
+			};
+			name = Release;
+		};
+		5709B2A123185FE900CE5CB8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "frases do diaUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.aluno.frases-do-diaUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "frases do dia";
+			};
+			name = Debug;
+		};
+		5709B2A223185FE900CE5CB8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "frases do diaUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.aluno.frases-do-diaUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "frases do dia";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5709B26D23185FE700CE5CB8 /* Build configuration list for PBXProject "frases do dia" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5709B29823185FE900CE5CB8 /* Debug */,
+				5709B29923185FE900CE5CB8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5709B29A23185FE900CE5CB8 /* Build configuration list for PBXNativeTarget "frases do dia" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5709B29B23185FE900CE5CB8 /* Debug */,
+				5709B29C23185FE900CE5CB8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5709B29D23185FE900CE5CB8 /* Build configuration list for PBXNativeTarget "frases do diaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5709B29E23185FE900CE5CB8 /* Debug */,
+				5709B29F23185FE900CE5CB8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5709B2A023185FE900CE5CB8 /* Build configuration list for PBXNativeTarget "frases do diaUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5709B2A123185FE900CE5CB8 /* Debug */,
+				5709B2A223185FE900CE5CB8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5709B26A23185FE700CE5CB8 /* Project object */;
+}
